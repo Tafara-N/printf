@@ -1,18 +1,15 @@
-Background Context
-Write your own printf function.
+# Background Context
+Write your own `printf` function.
 
+![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/228/printf.png)
 
+# Resources
+## Read or watch:
+- [Secrets of printf](https://intranet.alxswe.com/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
+- **Group Projects** concept page (*Don’t forget to read this*)
+- **Flowcharts** concept page
 
-^ In this picture, Kris, and Jul
-
-Resources
-Read or watch:
-
-Secrets of printf
-Group Projects concept page (Don’t forget to read this)
-Flowcharts concept page
-man or help:
-
+**man or help**:
 - `printf (3)`
 
 # Requirements
