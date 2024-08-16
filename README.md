@@ -1,9 +1,11 @@
 # Background Context
+
 Write your own `printf` function.
 
 ![](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-low_level_programming/228/printf.png)
 
 # Resources
+
 ## Read or watch:
 - [Secrets of printf](https://intranet.alxswe.com/rltoken/7Vw7aUWgwC7JYUrqI4bh4Q)
 - **Group Projects** concept page (*Don’t forget to read this*)
@@ -13,6 +15,7 @@ Write your own `printf` function.
 - `printf (3)`
 
 # Requirements
+
 ## General
 - Allowed editors: `vi`, `vim`, `emacs`
 - All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, using the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
@@ -28,6 +31,7 @@ Write your own `printf` function.
 - Note that we will not provide the `_putchar` function for this project
 
 # More Info
+
 ## Authorized functions and macros
 - `write` (`man 2 write`)
 - `malloc` (`man 3 malloc`)
@@ -38,9 +42,10 @@ Write your own `printf` function.
 - `va_arg` (`man 3 va_arg`)
 
 # Compilation
+
 - Your code will be compiled this way:
 
-```
+```bash
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 ```
 
@@ -48,7 +53,7 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 - Our main files will include your main header file (`main.h`): `#include main.h`
 - You might want to look at the gcc flag `-Wno-format` when testing with your `_printf` and the standard `printf`. Example of test file that you could use:
 
-```
+```bash
 alex@ubuntu:~/c/printf$ cat main.c
 #include <limits.h>
 #include <stdio.h>
@@ -168,7 +173,7 @@ Handle the following custom conversion specifiers:
 
 - `b`: the unsigned int argument is converted to binary
 
-```
+```bash
 alex@ubuntu:~/c/printf$ cat main.c
 #include "main.h"
 
@@ -221,7 +226,7 @@ Handle the following custom conversion specifier:
 - `S` : prints the string.
 - Non printable characters (0 < ASCII value < 32 or >= 127) are printed this way: `\x`, followed by the ASCII code value in hexadecimal (upper case - always 2 characters)
 
-```
+```bash
 alex@ubuntu:~/c/printf$ cat main.c
 #include "main.h"
 
