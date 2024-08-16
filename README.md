@@ -313,7 +313,7 @@ Handle the `-` flag character for non-custom conversion specifiers.
 **Repo:**
 - GitHub repository: `printf`
 
-###  13. Print is the sharpest and the strongest weapon of our party
+### 13 Print is the sharpest and the strongest weapon of our party
 
 Handle the following custom conversion specifier:
 
